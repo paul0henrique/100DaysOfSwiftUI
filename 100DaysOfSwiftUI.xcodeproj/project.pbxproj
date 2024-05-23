@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47D387052BFF84C800EDAE98 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D387042BFF84C800EDAE98 /* Day.swift */; };
+		47D387082BFF87CD00EDAE98 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D387072BFF87CD00EDAE98 /* Day3.swift */; };
+		47D3870C2BFF8AAE00EDAE98 /* Checkpoint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */; };
 		47DD70A22BFEC4D000B6457D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD70A12BFEC4D000B6457D /* main.swift */; };
 		47DD70AA2BFECB1D00B6457D /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD70A92BFECB1C00B6457D /* Day1.swift */; };
 		47F615A82BFEDCF2004F9A03 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F615A72BFEDCF2004F9A03 /* Day2.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47D387042BFF84C800EDAE98 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		47D387072BFF87CD00EDAE98 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint1.swift; sourceTree = "<group>"; };
 		47DD709E2BFEC4D000B6457D /* 100DaysOfSwiftUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 100DaysOfSwiftUI; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DD70A12BFEC4D000B6457D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		47DD70A92BFECB1C00B6457D /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -42,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47D387062BFF87B600EDAE98 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				47DD70A92BFECB1C00B6457D /* Day1.swift */,
+				47F615A72BFEDCF2004F9A03 /* Day2.swift */,
+				47D387072BFF87CD00EDAE98 /* Day3.swift */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		47D3870D2BFF8AB200EDAE98 /* Checkpoints */ = {
+			isa = PBXGroup;
+			children = (
+				47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */,
+			);
+			path = Checkpoints;
+			sourceTree = "<group>";
+		};
 		47DD70952BFEC4D000B6457D = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				47DD70A12BFEC4D000B6457D /* main.swift */,
-				47DD70A92BFECB1C00B6457D /* Day1.swift */,
-				47F615A72BFEDCF2004F9A03 /* Day2.swift */,
+				47D387042BFF84C800EDAE98 /* Day.swift */,
+				47D3870D2BFF8AB200EDAE98 /* Checkpoints */,
+				47D387062BFF87B600EDAE98 /* Days */,
 			);
 			path = 100DaysOfSwiftUI;
 			sourceTree = "<group>";
@@ -127,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DD70AA2BFECB1D00B6457D /* Day1.swift in Sources */,
+				47D387082BFF87CD00EDAE98 /* Day3.swift in Sources */,
 				47F615A82BFEDCF2004F9A03 /* Day2.swift in Sources */,
+				47D3870C2BFF8AAE00EDAE98 /* Checkpoint1.swift in Sources */,
+				47D387052BFF84C800EDAE98 /* Day.swift in Sources */,
 				47DD70A22BFEC4D000B6457D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
