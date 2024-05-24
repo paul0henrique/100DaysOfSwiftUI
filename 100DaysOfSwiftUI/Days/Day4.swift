@@ -43,6 +43,6 @@ struct Day4: Day {
         
         var style = UIStyle.light
         
-        
+        print(style)
     }
 }
