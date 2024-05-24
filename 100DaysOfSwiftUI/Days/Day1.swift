@@ -9,7 +9,7 @@ import Foundation
 
 class Day1: Day {
     static func main() {
-        let name: String = "Paulo"
+        let name: String = "Paulo Henrique"
         print(name)
         
         let quote = """

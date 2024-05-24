@@ -9,7 +9,7 @@ import Foundation
 
 class Day2: Day {
     static func main() {
-            let fileName = "ph.txt"
+            let fileName = "ph.png"
         
             print(fileName.hasSuffix(".txt"))
         
