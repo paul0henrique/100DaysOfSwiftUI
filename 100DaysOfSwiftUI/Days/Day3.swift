@@ -61,11 +61,13 @@ struct Day3: Day {
         
         let capitals = ["England": "London", "Wales": "Cardiff"]
         let scotlandCapital = capitals["Scotland"]
-        print(capitals)
+        print("Capitals: \(capitals)")
+        print(scotlandCapital ?? "Unknown")
         
         // SETS
         let characters = Set(["Storm", "Wolverine", "Jean Grey", "Cyclops"])
         print(characters)
+        print("Count characters: \(characters.count)")
         
         var team = Set<String>()
         team.insert("Storm")

@@ -32,7 +32,7 @@
 
 import Foundation
 
-Day3.main()
+Day4.main()
 
 
 //func soma(a: Int, b: Int, c: () -> Void) -> Int {
