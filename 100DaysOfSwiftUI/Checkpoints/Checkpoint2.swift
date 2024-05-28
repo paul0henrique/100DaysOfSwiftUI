@@ -11,7 +11,7 @@ struct Checkpoint2: Day {
         let events: [String] = ["Bridge", "Funday", "Proday", "Talk", "Workshop", "Funday"]
         print("Total de elementos do array: \(events.count)")
         
-        let eventsSet = Set(events)
-        print("Total de elementos únicos do array: \(eventsSet.count)")
+        let uniqueEvents = Set(events)
+        print("Total de elementos únicos do array: \(uniqueEvents.count)")
     }
 }
