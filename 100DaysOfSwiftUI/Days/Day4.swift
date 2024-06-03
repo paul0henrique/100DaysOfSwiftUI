@@ -41,7 +41,7 @@ struct Day4: Day {
             case light, dark, system
         }
         
-        var style = UIStyle.light
+        let style = UIStyle.light
         
         print(style)
     }

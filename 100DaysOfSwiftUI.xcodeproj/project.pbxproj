@@ -15,6 +15,7 @@
 		47D3870C2BFF8AAE00EDAE98 /* Checkpoint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */; };
 		47DD70A22BFEC4D000B6457D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD70A12BFEC4D000B6457D /* main.swift */; };
 		47DD70AA2BFECB1D00B6457D /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD70A92BFECB1C00B6457D /* Day1.swift */; };
+		47F5D1B22C0940460094895B /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F5D1B12C0940460094895B /* Day7.swift */; };
 		47F615A82BFEDCF2004F9A03 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F615A72BFEDCF2004F9A03 /* Day2.swift */; };
 		9BC12A7F2C06831F0077D054 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC12A7E2C06831F0077D054 /* Day6.swift */; };
 		9BC12A812C069E7A0077D054 /* Checkpoint3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC12A802C069E7A0077D054 /* Checkpoint3.swift */; };
@@ -42,6 +43,7 @@
 		47DD709E2BFEC4D000B6457D /* 100DaysOfSwiftUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 100DaysOfSwiftUI; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DD70A12BFEC4D000B6457D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		47DD70A92BFECB1C00B6457D /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		47F5D1B12C0940460094895B /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		47F615A72BFEDCF2004F9A03 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		9BC12A7E2C06831F0077D054 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		9BC12A802C069E7A0077D054 /* Checkpoint3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint3.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				477D98622C012B3400C492A4 /* Day4.swift */,
 				47C5C3142C04F9B0002F0D21 /* Day5.swift */,
 				9BC12A7E2C06831F0077D054 /* Day6.swift */,
+				47F5D1B12C0940460094895B /* Day7.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				477D98652C01340900C492A4 /* Checkpoint2.swift in Sources */,
 				47C5C3152C04F9B0002F0D21 /* Day5.swift in Sources */,
 				47DD70A22BFEC4D000B6457D /* main.swift in Sources */,
+				47F5D1B22C0940460094895B /* Day7.swift in Sources */,
 				9BC12A812C069E7A0077D054 /* Checkpoint3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
