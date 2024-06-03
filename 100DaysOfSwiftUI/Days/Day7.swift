@@ -59,5 +59,38 @@ struct Day7: Day {
         }
         
         print(allTestsPassed(tests: [true, false]))
+        
+        func isUppercase(_ string: String) -> Bool {
+            string == string.uppercased()
+        }
+        
+        print(isUppercase("PAULO"))
+        
+        func getUser() -> (firstName: String, lastName: String) {
+            (firstName: "Taylor", lastName: "Swift")
+        }
+        
+        let user = getUser()
+
+        let (firstName, lastName) = getUser()
+        
+        print("Name: \(firstName) \(lastName)")
+        
+        func rollDice(sides: Int, count: Int) -> [Int] {
+            var rolls = [Int]()
+            
+            for _ in 1...count {
+                let roll = Int.random(in: 1...sides)
+                rolls.append(roll)
+            }
+            
+            return rolls
+        }
+        
+        let rolls = rollDice(sides: 6, count: 4)
+        print(rolls)
+        
+        
+        
     }
 }
