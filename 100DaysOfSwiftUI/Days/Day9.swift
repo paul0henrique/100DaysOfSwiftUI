@@ -40,7 +40,7 @@ struct Day9: Day {
         let user = data(1989)
         print(user)
         
-        let team = ["Paulo", "Bernardo", "Gabi", "João", "David", "Teste"]
+        let team = ["Paulo", "Bernardo", "Gabi", "João", "David", "Nicole"]
         let sortedTeam = team.sorted()
         print(sortedTeam)
         
@@ -87,5 +87,75 @@ struct Day9: Day {
         animate(duration: 3){
             print("Fade out the image")
         }
+        
+        func makeArray(size: Int, using generator: () -> Int) -> [Int] {
+            var numbers = [Int]()
+            
+            for _ in 0..<size {
+                let newNumber = generator()
+                numbers.append(newNumber)
+            }
+            
+            return numbers
+        }
+        
+        let rolls = makeArray(size: 50) {
+            Int.random(in: 1...20)
+        }
+        
+        print(rolls)
+        
+        func generateNumber() -> Int {
+            Int.random(in: 1...20)
+        }
+        
+        let newRolls = makeArray(size: 10, using: generateNumber)
+        print(newRolls)
+        
+        func doImportantWork(first: () -> Void, second: () -> Void, third: () -> Void) {
+            print("About to start first work")
+            first()
+            print("About to start second work")
+            second()
+            print("About to start third work")
+            third()
+            print("Done")
+        }
+        
+        doImportantWork {
+            print("This is the first work")
+        } second: {
+            print("This is the second work")
+        } third: {
+            print("This is the third work")
+        }
+        
+        let swanDive = {
+            print("SWAN DIVE!")
+        }
+        func performDive(type dive: () -> Void) {
+            print("I'm climbing up to the top")
+            dive()
+        }
+        performDive(type: swanDive)
+        
+        let helicopterTravel = {
+            print("Get to the chopper!")
+        }
+        func travel(by travelMeans: () -> Void) {
+            print("Let's go on vacation...")
+            travelMeans()
+        }
+        travel(by: helicopterTravel)
+        
+        var learnWithUnwrap = {
+            print("Hey, this is fun!")
+        }
+        func learnSwift(using approach: () -> Void) {
+            print("I'm learning Swift")
+            approach()
+        }
+        learnSwift(using: learnWithUnwrap)
     }
+    
 }
