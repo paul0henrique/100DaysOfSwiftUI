@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct Day9: Day {
     static func main() {
         
@@ -148,7 +149,7 @@ struct Day9: Day {
         }
         travel(by: helicopterTravel)
         
-        var learnWithUnwrap = {
+        let learnWithUnwrap = {
             print("Hey, this is fun!")
         }
         func learnSwift(using approach: () -> Void) {
@@ -157,5 +158,4 @@ struct Day9: Day {
         }
         learnSwift(using: learnWithUnwrap)
     }
-    
 }
