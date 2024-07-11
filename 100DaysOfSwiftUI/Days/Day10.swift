@@ -45,5 +45,5 @@ struct Day10: Day {
         var archer = Employee(name: "Sterling Archer", vacationRemaining: 14)
         archer.takeVacation(days: 5)
         print(archer.vacationRemaining)
-    } //tem um teste que menciona london e corrida KKKKKKK
+    }
 }
