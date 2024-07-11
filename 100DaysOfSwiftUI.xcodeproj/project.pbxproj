@@ -13,6 +13,7 @@
 		47BE25322C0F7E6E000057F5 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE25312C0F7E6E000057F5 /* Day8.swift */; };
 		47BE25342C0F9247000057F5 /* Checkpoint4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE25332C0F9247000057F5 /* Checkpoint4.swift */; };
 		47C5C3152C04F9B0002F0D21 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5C3142C04F9B0002F0D21 /* Day5.swift */; };
+		47D1CB632C23B39600814E9A /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1CB622C23B39600814E9A /* Day10.swift */; };
 		47D387052BFF84C800EDAE98 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D387042BFF84C800EDAE98 /* Day.swift */; };
 		47D387082BFF87CD00EDAE98 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D387072BFF87CD00EDAE98 /* Day3.swift */; };
 		47D3870C2BFF8AAE00EDAE98 /* Checkpoint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */; };
@@ -44,6 +45,7 @@
 		47BE25312C0F7E6E000057F5 /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 		47BE25332C0F9247000057F5 /* Checkpoint4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint4.swift; sourceTree = "<group>"; };
 		47C5C3142C04F9B0002F0D21 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
+		47D1CB622C23B39600814E9A /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		47D387042BFF84C800EDAE98 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		47D387072BFF87CD00EDAE98 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		47D3870B2BFF8AAE00EDAE98 /* Checkpoint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint1.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				47F5D1B12C0940460094895B /* Day7.swift */,
 				47BE25312C0F7E6E000057F5 /* Day8.swift */,
 				47BA7E752C1631D40049647A /* Day9.swift */,
+				47D1CB622C23B39600814E9A /* Day10.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				47D387052BFF84C800EDAE98 /* Day.swift in Sources */,
 				47EFDE772C1B61A300A5E3F6 /* Checkpoint5.swift in Sources */,
 				47BE25342C0F9247000057F5 /* Checkpoint4.swift in Sources */,
+				47D1CB632C23B39600814E9A /* Day10.swift in Sources */,
 				477D98652C01340900C492A4 /* Checkpoint2.swift in Sources */,
 				47C5C3152C04F9B0002F0D21 /* Day5.swift in Sources */,
 				47DD70A22BFEC4D000B6457D /* main.swift in Sources */,
