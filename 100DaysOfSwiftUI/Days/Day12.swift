@@ -89,12 +89,51 @@ struct Day12: Day {
             }
         }
         
-        var user1 = User()
+        let user1 = User()
         
-        var user2 = user1.copy()
+        let user2 = user1.copy()
         user2.username = "Taylor"
         
         print(user1.username)
         print(user2.username)
+        
+        class User2 {
+            let id: Int
+            
+            init(id: Int) {
+                self.id = id
+                print("User \(id): I'm alive")
+            }
+            
+            deinit {
+                print("User \(id): I'm dead!")
+            }
+        }
+        
+        for i in 1...3 {
+            let user = User2(id: i)
+            print("User \(user.id): I'm in control!")
+        }
+        
+        var users = [User2]()
+        
+        for i in 1...3 {
+            let user = User2(id: i)
+            print("User \(user.id): I'm in control")
+            users.append(user)
+        }
+        
+        print("Loop is finished!")
+        users.removeAll()
+        print("Array is clear")
+        
+        class User3 {
+            var name = "Paul"
+        }
+        
+        var user = User3()
+        user.name = "Taylor"
+        user = User3()
+        print(user.name)
     }
 }
