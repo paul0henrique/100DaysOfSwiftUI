@@ -106,6 +106,54 @@ struct Day13: Day {
         func getRandomBool() -> some Equatable {
             Bool.random()
         }
+        
+        var quote = "   The truth is rarely pure and never simple   "
+        //let trimmed = quote.trimmed()
+        quote.trim()
+        
+        let lyrics = """
+        But I keep cruising
+        Can't stop, won't stop moving
+        It's like I got this music in my mind
+        Saying it's gonna be alright
+        """
 
+        print(lyrics.lines.count)
+        
+        let guests = ["Mario", "Luigi", "Peach"]
+        
+        if guests.isNotEmpty {
+            print("Guest count: \(guests.count)")
+        }
+        
+        let numbers = [4, 8, 15, 16]
+        let allEven = numbers.allSatisfy { $0.isMultiple(of: 2) }
+        
+        let numbers2 = Set([4, 8, 15, 16])
+        let allEven2 = numbers2.allSatisfy { $0.isMultiple(of: 2) }
+
+        let numbers3 = ["four": 4, "eight": 8, "fifteen": 15, "sixteen": 16]
+        let allEven3 = numbers3.allSatisfy { $0.value.isMultiple(of: 2) }
+    }
+}
+
+extension String {
+    func trimmed() -> String {
+        self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    mutating func trim() {
+        self = self.trimmed()
+    }
+    
+    var lines: [String] {
+        self.components(separatedBy: .newlines)
+    }
+    
+}
+
+extension Collection {
+    var isNotEmpty: Bool {
+        isEmpty == false
     }
 }
