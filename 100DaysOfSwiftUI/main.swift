@@ -32,7 +32,7 @@
 
 import Foundation
 
-Checkpoint9.main()
+Day15.main()
 
 
 //func soma(a: Int, b: Int, c: () -> Void) -> Int {
